@@ -1,0 +1,3 @@
+2019-02-26 11:53:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "创建数据库CREATEDATABASEIFNOTEXISTSMINI_EVERYTHING_PLUS[*];创建数据库表DROPTABLEIFEXISTSFILE_INDEX;CREATETABLEIFNOTEXISTSFILE_INDEX(NAMEVARCHAR(256)NOTNULLCOMMENT'文件名称',PATHVARCHAR(1024)NOTNULLCOMMENT'文件路径',DEPATHINTNOTNULLCOMMENT'文件路径深度',FILE_TYPEVARCHAR(32)NOTNULLCOMMENT'文件类型'); "; SQL statement:
+创建数据库createdatabaseifnotexistsmini_everything_plus;创建数据库表droptableifexistsfile_index;createtableifnotexistsfile_index(namevarchar(256)notnullcomment'文件名称',pathvarchar(1024)notnullcomment'文件路径',depathintnotnullcomment'文件路径深度',file_typevarchar(32)notnullcomment'文件类型'); [42000-197]
